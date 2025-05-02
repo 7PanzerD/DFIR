@@ -1,0 +1,47 @@
+DFIR syllabus M2
+- textbook, chapter 7: linux and mac file systems 
+- textbook, chapter 8: recovering graphics files 
+- textbook, chapter 9: digital forensics analysis & validation 
+- textbook, chapter 10: VM forensics, live acquisition and network forensics
+- incident response (sir’s notes)
+
+DFIR 
+
+EC COUNCIL _________________________________________________________________________
+
+Module 
+2    Forensic investigations     :  Prepared Notes
+8    Network Forensics
+10   TOR                         :  https://youtu.be/QRYzre4bf7I?si=zwGnJ1229KDlN26d
+				 :  https://youtu.be/lVcbq_a5N9I?si=b0IICfVXyEDKHd9F
+11   Email Forensics	         :  EC-Council Sub pdf
+
+Nelson _____________________________________________________________________________
+
+Chp
+
+Module
+3    Data Acquisition
+5    Windows and CLI systems     :  Notes made
+6    Table tool vs tool                                Left 
+7    Linux and Mac               :  Notes made
+8    Image Forensics              
+10   VM Forensics
+
+DHCP Snoop               Mobile
+HEX Editors
+
+Arpan's notes Go through
+
+Nelson         -     8.10.5 + HEX +DHCP Snoop                  -> 1May
+Extra          -     Nelson3+EC2,11+Extra+Mobile               -> 2May
+EC&Nelson      -     8&7&TOR         		               -> 3May
+
+
+
+
+
+EC & Nelson  -     8 & 7        -> 28Apr
+EC Council   -     2.10.11      -> 29Apr
+Nelson       -     8.10.5       -> 30Apr
+Nelson       -     1.2.3.6      -> 1May   

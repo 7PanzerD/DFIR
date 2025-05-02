@@ -1,0 +1,94 @@
+Here are the **headers and sub-headers** from the "Email Forensics" module of the EC-Council's Digital Forensics Essentials course, along with **brief descriptors** of what is covered in each:
+
+---
+
+### **Module Title: Investigating Email Crimes**
+
+---
+
+### **Module Objectives**
+- Understand the email system and communication process.
+- Analyze the structure of an email message.
+- Investigate email crimes and their methodology.
+
+---
+
+## **1. Understanding the Email System**
+
+### **1.1 Introduction to an Email System**
+- Overview of how email systems function using client-server architecture.
+
+### **1.2 Components Involved in Email Communication**
+- **Mail User Agent (MUA)** – e.g., Outlook, Thunderbird.
+- **Mail Transfer Agent (MTA)** – Routes emails to destination.
+- **Mail Delivery Agent (MDA)** – Delivers to recipient mailbox.
+- **SMTP Server** – Handles outgoing emails.
+- **POP3 Server / IMAP Server** – Handles incoming emails.
+
+### **1.3 How Email Communication Works**
+- Describes end-to-end flow of an email from sender to recipient using a real-world example.
+
+---
+
+## **2. Understanding the Parts of an Email Message**
+
+### **2.1 Message Header**
+- Fields like From, To, Subject, Date, MIME-Version, etc.
+
+### **2.2 Message Body**
+- Main content, can include HTML, text, images, etc.
+
+### **2.3 Signature**
+- Sender’s credentials or role appended at the end.
+
+---
+
+## **3. Understanding Email Crime Investigation and Its Steps**
+
+### **3.1 Introduction to Email Crime Investigation**
+- Classifies email crimes:
+  - **By Sending Emails**: Spam, phishing, mail bombing, spoofing.
+  - **Supported By Emails**: Identity fraud, cyberstalking, child abduction.
+
+### **3.2 Steps to Investigate Email Crimes**
+1. **Seizing the Computer and Email Accounts**
+2. **Acquiring the Email Data**
+   - From desktop clients like Outlook (.pst, .ost files).
+   - Using tools like SysTools MailPro+.
+3. **Examining Email Messages**
+   - Focus on subject, sender, body, attachments.
+4. **Retrieving Email Headers**
+   - Different methods for Outlook, Outlook.com, Gmail.
+5. **Analyzing Email Headers**
+   - Elements: Timestamp, From, To, Message ID, MIME, SPF, DKIM, etc.
+6. **Recovering Deleted Email Messages**
+   - (Implied in the steps, though the full section may continue past the provided content.)
+
+---
+
+## **4. Investigating a Suspicious Email**
+
+### **4.1 Examining the Email Message**
+- Check for urgency, phishing tactics, or anomalies.
+
+### **4.2 Checking the Link**
+- Open links in a sandbox to observe redirection behavior.
+
+### **4.3 Analyzing the Received Header Entries**
+- Trace email back to origin via header chain.
+
+### **4.4 Examine the Originating IP Address**
+- Use IP tracing tools like whatismyipaddress.com.
+
+### **4.5 Examine the Received-SPF Field**
+- Analyze SPF validation status.
+
+### **4.6 Check the Sender's Email Validity**
+- Use tools like CentralOps Email Dossier.
+
+### **4.7 Examine the Message ID**
+- Check if message ID matches known legitimate domains.
+
+---
+
+Let me know if you want this turned into a printable summary or a visual mind map!
